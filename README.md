@@ -18,7 +18,7 @@ Siga os passos abaixo para clonar o projeto, subir o banco via Docker, aplicar a
 ### Passo 1 - Clonar o repositório
 
 ```bash
-git clone https://github.com/talitasdias/ApiLinkShortener#
+git clone https://github.com/talitasdias/ApiLinkShortener.git
 cd ApiLinkShortener
 ```
 
