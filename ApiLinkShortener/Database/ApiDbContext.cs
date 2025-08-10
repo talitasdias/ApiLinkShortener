@@ -1,3 +1,4 @@
+using System.ComponentModel.DataAnnotations;
 using Microsoft.EntityFrameworkCore;
 
 namespace ApiLinkShortener.Database;
@@ -9,6 +10,7 @@ public class ApiDbContext(DbContextOptions<ApiDbContext> options) : DbContext(op
 
 public class UrlMappings
 {
+    [Key]
     public int Id { get; set; }
     public string? ShortenUrl { get; set; }
     public string? LongUrl { get; set; }
