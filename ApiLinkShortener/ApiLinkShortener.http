@@ -1,0 +1,6 @@
+@ApiLinkShortener_HostAddress = http://localhost:5022
+
+GET {{ApiLinkShortener_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
